@@ -23,11 +23,8 @@
 #define SERIAL_USART_FULL_DUPLEX
 #define SERIAL_USART_TX_PIN GP0
 #define SERIAL_USART_RX_PIN GP1
-#define SERIAL_PIO_USE_PIO1
 
-/**
- */
-/*
+/** */
 #define SPI_SCK_PIN GP22
 #define SPI_MOSI_PIN GP23
 #define SPI_MISO_PIN GP20
