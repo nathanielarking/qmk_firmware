@@ -1,3 +1,6 @@
+cyberpouch flash: qmk compile -c -kb crkbd/rev1 -km nathaniel -e CONVERT_TO=promicro_rp2040
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
