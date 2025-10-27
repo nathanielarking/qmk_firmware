@@ -4,15 +4,13 @@
 #define MANUFACTURER    "Nathaniel King"
 #define PRODUCT         "snakcyberdeck"
 
-#define MATRIX_ROWS 8   
-#define MATRIX_COLS 5
 #define MATRIX_ROW_PINS { GP16, GP15, GP14, GP13 }
-#define MATRIX_COL_PINS { GP2, GP3, GP4, GP12, GP9 }
+#define MATRIX_COL_PINS { GP2, GP6, GP7, GP12, GP9 }
 #define MATRIX_ROW_PINS_RIGHT { GP2, GP3, GP9, GP12 }
-#define MATRIX_COL_PINS_RIGHT { GP7, GP13, GP4, GP16, GP12 }
+#define MATRIX_COL_PINS_RIGHT { GP7, GP14, GP15, GP16, GP21 }
 
+//#define MASTER_LEFT
 #define SPLIT_HAND_PIN GP29
-#define SLIT_USB_DETECT
 
 //#define NO_DEBUG
 //#define NO_PRINT
@@ -25,9 +23,9 @@
 #define SERIAL_USART_RX_PIN GP1
 
 /** */
-#define SPI_SCK_PIN GP22
-#define SPI_MOSI_PIN GP23
-#define SPI_MISO_PIN GP20
+//#define SPI_SCK_PIN GP22
+//#define SPI_MOSI_PIN GP23
+//#define SPI_MISO_PIN GP20
 
 
 /**

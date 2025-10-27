@@ -105,7 +105,7 @@
         "mousekey": false,
         "extrakey": true,
         "console": true,
-        "rgb_matrix": true,
+        "rgb_matrix": false,
         "encoder": true
     },
     "build": {
